@@ -1,0 +1,47 @@
+/* Сброс отступов */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Для всех элементов и псевдоэлементов */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px; /* базовый размер шрифта */
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Хак против схлопывания */
+.wrapper {
+  display: flow-root; /* современный способ */
+}
+
+/* Удобнее работать с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: auto;
+  max-width: 2000px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}

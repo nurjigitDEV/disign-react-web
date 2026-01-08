@@ -1,0 +1,74 @@
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 93px 100px 98px 100px;
+
+  .title {
+    h1 {
+      flex-direction: column;
+      margin-top: -30px;
+      p {
+        // font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 64px;
+        text-transform: uppercase;
+        color: #f5f5f5;
+      }
+    }
+    .title_year {
+      display: flex;
+      align-content: center;
+      margin-top: 10px;
+      //   font-family: var(--font-family);/
+      font-weight: 300;
+      font-size: 14px;
+      color: #f5f5f5;
+
+      p {
+        margin-left: 6px;
+      }
+    }
+  }
+}
+
+.blocks {
+  display: flex;
+  gap: 0 100px;
+}
+
+.flex_block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+  // font-family: var(--font-family);
+
+  a {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #f5f5f5;
+  }
+}
+
+.svg_text {
+  display: flex;
+}
+
+.svg_text_2 {
+  display: flex;
+  margin-top: 21px;
+}
+
+.image {
+  padding-top: 4px;
+  display: flex;
+  margin-right: 8px;
+  justify-content: end;
+  height: 100%;
+}
+
+.text_block {
+  margin-top: 20px;
+}

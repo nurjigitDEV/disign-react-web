@@ -1,0 +1,117 @@
+.background {
+  background-color: white;
+  padding: 150px 100px 150px 103px;
+  color: black;
+  // display: block;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  p {
+    // font-family: var(--font-family);
+    color: #2b2b2b;
+    font-size: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+}
+
+.block_Catalog {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  .block_Catalog_img {
+    // width: 820px;
+    // height: 457px;
+    width: 50%;
+    margin-right: 40px;
+  }
+}
+
+.EMail_Block {
+  width: 50%;
+  margin-left: 10px;
+
+  .EMail_Block_title {
+    // font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #2b2b2b;
+  }
+
+  .EMail_Block_text {
+    margin-top: 20px;
+    // font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2b2b2b;
+  }
+}
+
+.Email_Input {
+  margin-top: 50px;
+  padding: 20px;
+  // font-family: var(--font-family);
+  font-weight: 100;
+  font-size: 24px;
+  color: #2b2b2b;
+}
+
+.checkbox {
+  display: flex;
+  align-content: flex-start;
+  margin-top: 30px;
+  .input_Checkbox {
+    display: flex;
+    align-items: flex-start;
+    .style_checkbox {
+      width: 17px;
+      height: 17px;
+    }
+  }
+  .text_Checkbox {
+    margin-left: 10px;
+    // font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 146%;
+    color: #2b2b2b;
+  }
+}
+
+.EMail_Block_button {
+  background-color: #171717;
+  margin-top: 50px;
+  padding: 19px 0;
+  align-items: center;
+  width: 260px;
+  height: 60px;
+  // font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f5f5f5;
+}
+.EMail_Block_button:hover {
+  background-color: white;
+  color: #171717;
+}
+
+.Catalog_Images {
+  margin-top: 150px;
+  display: grid;
+  // 415px 415px 415px 415px  417px 417px
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 20px 20px;
+
+  .Catalog_Images_img {
+    height: 417px;
+    width: 415px;
+  }
+}
